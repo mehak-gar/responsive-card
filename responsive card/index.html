@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!---------Google Icon link---------------------------------------------------------------->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+<!-------------------------------------------Swiperjs cdn---------------------------------->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Card Slider</title>
+  </head>
+  <body>
+    <div class="container swiper">
+      <div class="card-wrapper">
+        <ul class="card-list swiper-wrapper">
+          <li class="card-item developer swiper-slide">
+            <a href="#" class="card-link developer">
+              <img
+                src="https://images.unsplash.com/photo-1449034446853-66c86144b0ad?ixlib=rb-4.0.3"
+                alt="card image"
+                class="card-image developer"
+              />
+              <p class="badge developer">Developer</p>
+              <h2 class="card-title developer">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Blanditiis, quam.
+              </h2>
+              <button class="card-button developer material-symbols-rounded">
+                arrow_forward
+              </button>
+            </a>
+          </li>
+          <li class="card-item designer swiper-slide" >
+            <a href="#" class="card-link designer">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRevckkmTkaimXs9IwU_puDUS0wIxkZyv60Qg&s"
+                alt="card image"
+                class="card-image designer"
+              />
+              <p class="badge designer">Designer</p>
+              <h2 class="card-title designer">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Blanditiis, quam.
+              </h2>
+              <button class="card-button designer material-symbols-rounded">
+                arrow_forward
+              </button>
+            </a>
+          </li>
+          <li class="card-item editor swiper-slide">
+            <a href="#" class="card-link editor">
+              <img
+                src="https://www.shutterstock.com/image-photo/dramatic-lake-lassen-volcanic-national-260nw-295473284.jpg"
+                alt="card image"
+                class="card-image editor"
+              />
+              <p class="badge editor ">Editor</p>
+              <h2 class="card-title editor">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Blanditiis, quam.
+              </h2>
+              <button class="card-button editor material-symbols-rounded ">
+                arrow_forward
+              </button>
+            </a>
+          </li>
+          <li class="card-item gamer swiper-slide">
+            <a href="#" class="card-link gamer">
+              <img
+                src="https://images.unsplash.com/photo-1678496479367-28592d3620a9?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FsaWZvcm5pYSUyMG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D"
+                alt="card image"
+                class="card-image gamer"
+              />
+              <p class="badge gamer">Gamer</p>
+              <h2 class="card-title gamer">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Blanditiis, quam.
+              </h2>
+              <button class="card-button gamer material-symbols-rounded">
+                arrow_forward
+              </button>
+            </a>
+          </li>
+          <li class="card-item marketing swiper-slide">
+            <a href="#" class="card-link marketing">
+              <img
+                src="https://media.istockphoto.com/id/1498890670/photo/mt-shasta.jpg?s=612x612&w=0&k=20&c=b1m8bKetHAcwkFwVywN7LbaCJcnr1NlWPMv9hjn95lU="
+                alt="card image"
+                class="card-image marketing"
+              />
+              <p class="badge marketing">Marketing</p>
+              <h2 class="card-title marketing">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Blanditiis, quam.
+              </h2>
+              <button class="card-button marketing material-symbols-rounded">
+                arrow_forward
+              </button>
+            </a>
+          </li>
+        </ul>
+         <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar
+  <div class="swiper-scrollbar"></div> -->
+      </div>
+    </div>
+    <!-- Swiper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Linking custom Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
